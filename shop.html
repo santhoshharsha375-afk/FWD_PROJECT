@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Courses - Edu Webinars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="Edu logo.png" alt="Edu Webinars Logo">
+    <h1>Edu Webinars</h1>
+  </div>
+
+  <nav>
+    <a href="Project.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="about.html">About</a>
+    <a href="shop.html" class="active">Shop</a>
+    <a href="login.html">Login</a>
+    <a href="cart.html" class="cart-link">
+      🛒
+      <span class="cart-count">0</span>
+    </a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Choose Your Webinar</h1>
+  <p>High‑quality sessions designed to boost your skills.</p>
+</section>
+
+<section class="courses">
+  <div class="course-grid">
+
+    <div class="course">
+      <h3>Java Full Course</h3>
+      <p>OOP, collections, and real project examples.</p>
+      <p class="course-price">Price: ₹999</p>
+      <button class="btn primary-btn add-to-cart"
+              data-name="Java Full Course"
+              data-price="999">
+        Add
+      </button>
+    </div>
+
+    <div class="course">
+      <h3>Python Basics</h3>
+      <p>Perfect for complete beginners.</p>
+      <p class="course-price">Price: ₹799</p>
+      <button class="btn primary-btn add-to-cart"
+              data-name="Python Basics"
+              data-price="799">
+        Add
+      </button>
+    </div>
+
+    <div class="course">
+      <h3>Web Development Bootcamp</h3>
+      <p>HTML, CSS, and JavaScript from scratch.</p>
+      <p class="course-price">Price: ₹899</p>
+      <button class="btn primary-btn add-to-cart"
+              data-name="Web Development Bootcamp"
+              data-price="899">
+        Add
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Edu Webinars. All rights reserved.</p>
+</footer>
+
+<script src="cart.js"></script>
+</body>
+</html>
